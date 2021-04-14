@@ -1,0 +1,100 @@
+.register{
+    background-color: #efe9e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3d1101;
+    padding-top: 48px;
+}
+.register h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.register h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.register-area{
+    max-width: 60%;
+    border-top: 5px solid #f56c23;
+    padding: 16px;
+    box-shadow: 3px 3px 8px rgb(211, 211, 211);
+}
+.register-area h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.register-area .info{
+    display: flex;
+}
+.register-area .info p{
+    width: 49%;
+    margin-right: 20px;
+}
+.register-area .info .input-area{
+    width: 49%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-area label{
+    display: block;
+}
+.input-area input{
+    text-indent: 28px;
+    width: 100%;
+}
+.input-area .email{
+    margin-bottom: 1em;
+}
+.input-area .password1{
+    margin-bottom: .6em;
+}
+.input-area i{
+    opacity: 0.5;
+    position: absolute;
+    left: 10px;
+}
+.input-area .envelope{
+    top: 31px;
+}
+.input-area .lock1{
+    top: 101px;
+}
+.input-area .lock2{
+    top: 141px;
+}
+.input-area a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ff5e45;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.input-area a:hover{
+    color: #C4561B;
+}
+.input-area .btn{
+    background-color: #F56C23;
+    border-color: #F56C23;
+    width: 130px;
+    display: block;
+    padding-right: 38px;
+    align-self: flex-end;
+}
+.input-area .btn:hover{
+    background-color: #C4561B;
+    border-color: #C4561B;
+}
+@media(max-width: 768px){
+    .register-area .info{
+        flex-direction: column;
+    }
+    .register-area .info p,
+    .register-area .info .input-area{
+        width: 100%;
+    }
+}
